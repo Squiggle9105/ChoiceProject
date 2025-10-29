@@ -1,10 +1,34 @@
+body
+{
+    background-color:#101;
+}
+
 header
 {
     width:1140px;
     height:100px;
     background-color:#213;
+    float:right;
+    overflow:auto;
 }
-
-
-
-
+nav
+{
+    width:100px;
+    height:700px;
+    background-color:#101;
+    overflow:auto;
+}
+article
+{
+    height:500px;
+    width:1140px;
+    background-color:#547;
+    float:right;
+    overflow:auto;
+}
+footer
+{
+    width:100px;
+    height:700px;
+    background-color:#101;
+}
