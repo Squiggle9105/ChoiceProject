@@ -14,7 +14,7 @@ header
 nav
 {
     width:100px;
-    height:690px;
+    height:990px;
     background-color:#101;
     float:left;
     overflow:auto;
@@ -25,10 +25,6 @@ nav
     height:20px;
     width:24px;
 }
-#hdrimg
-{
-    margin-top:10px;
-}
 a
 {
     margin-top:10px;
@@ -37,19 +33,18 @@ a
 }
 article
 {
-    height:500px;
+    height:800px;
     width:1140px;
     background-color:#547;
     overflow:auto;
 }
 table
 {
-    width:1120px;
-    height:275px;
-    background-color:#cbe;
-    margin-top:200px;
-    margin-left:10px;
-    border-spacing:10px;
+    width:1140px;
+    height:750px;
+    margin-top:50px;
+    background-color:#547;
+    border-spacing:20px;
 }
 td
 {
