@@ -35,6 +35,11 @@ a
     width:10px;
     height:5px;
 }
+
+summary
+{
+    display:block;
+}
 article
 {
     height:500px;
@@ -52,6 +57,19 @@ table
     border-spacing:10px;
 }
 td
+{
+    background-color:#213;
+}
+table.about
+{
+    width:450px;
+    height:480px;
+    background-color:#cbe;
+    margin-left:500px;
+    border-spacing:10px;
+    margin-top:10px;
+}
+td.about
 {
     background-color:#213;
 }

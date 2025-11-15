@@ -31,6 +31,10 @@ a
     width:10px;
     height:5px;
 }
+summary
+{
+    display:block;
+}
 article
 {
     height:800px;
