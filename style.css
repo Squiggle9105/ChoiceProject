@@ -55,6 +55,7 @@ table
     margin-top:200px;
     margin-left:10px;
     border-spacing:10px;
+    table-layout: fixed;
 }
 td
 {
@@ -62,7 +63,8 @@ td
 }
 #homeimg
 {
-    color:101;
+    height:255px;
+    width:267.5px;
 }
 table#about
 {
