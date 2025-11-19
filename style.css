@@ -60,16 +60,20 @@ td
 {
     background-color:#213;
 }
-table.about
+#homeimg
+{
+    color:101;
+}
+table#about
 {
     width:450px;
     height:480px;
     background-color:#cbe;
-    margin-left:500px;
+    margin-left:675px;
     border-spacing:10px;
     margin-top:10px;
 }
-td.about
+td#about
 {
     background-color:#213;
 }
