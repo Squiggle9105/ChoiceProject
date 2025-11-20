@@ -8,7 +8,6 @@ header
     width:1140px;
     height:100px;
     background-color:#213;
-    float:right;
     overflow:auto;
 }
 nav
@@ -73,7 +72,8 @@ table#about
     background-color:#cbe;
     margin-left:675px;
     border-spacing:10px;
-    margin-top:10px;
+    margin-top:5px;
+    table-layout: fixed;
 }
 td#about
 {
