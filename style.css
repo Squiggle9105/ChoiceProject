@@ -16,7 +16,6 @@ header
 #nav ul
 {
     padding:0px;
-    margin:0px;
     list-style-type:none;
     display:block;
     color:#dde;
@@ -24,11 +23,9 @@ header
 }
 #nav li
 {
-    padding:0px;
     margin-left:-40px;
     list-style-type:circle;
-    display:block;
-    color:#dde;
+    padding-bottom:20px;
 }
 nav
 {
@@ -37,7 +34,6 @@ nav
     background-color:#101;
     float:left;
     overflow:auto;
-    padding-top:20px;
 }
 #navimg
 {
@@ -61,10 +57,11 @@ summary
 }
 article
 {
-    height:500px;
-    width:1140px;
+    height:490px;
+    width:1130px;
     background-color:#547;
     overflow:auto;
+    padding:5px;
 }
 table
 {
@@ -83,12 +80,12 @@ td
 table#about
 {
     width:450px;
-    height:480px;
+    height:430px;
     background-color:#cbe;
-    margin-left:675px;
     border-spacing:10px;
-    margin-top:5px;
     table-layout: fixed;
+    float:right;
+    margin-top:0px;
 }
 td#about
 {
@@ -119,4 +116,6 @@ footer
 .bdytxt
 {
     color:#101;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:500;
 }

@@ -17,7 +17,6 @@ nav
     background-color:#101;
     float:left;
     overflow:hidden;
-    padding-top:20px;
 }
 #navimg
 {
@@ -35,6 +34,20 @@ a:hover
     background-color:#324;
     transition: .5s;
     border-radius:5px;
+}
+#nav ul
+{
+    padding:0px;
+    list-style-type:none;
+    display:block;
+    color:#dde;
+    text-align:left;
+}
+#nav li
+{
+    margin-left:-40px;
+    list-style-type:circle;
+    padding-bottom:20px;
 }
 summary
 {
@@ -54,6 +67,7 @@ table
     margin-top:50px;
     background-color:#547;
     border-spacing:20px;
+    table-layout: fixed;
 }
 td
 {
