@@ -32,19 +32,25 @@ a
 {
     margin-top:10px;
     width:10px;
-    height:5px;
+    height:15px;
 }
-
+a:hover
+{
+    background-color:#324;
+    transition: .5s;
+    border-radius:5px;
+}
 summary
 {
     display:block;
 }
 article
 {
-    height:500px;
-    width:1140px;
+    height:480px;
+    width:1120px;
     background-color:#547;
     overflow:auto;
+    padding:10px;
 }
 table
 {
@@ -67,13 +73,13 @@ td
 }
 table#about
 {
-    width:450px;
-    height:480px;
+    width:440px;
+    height:470px;
     background-color:#cbe;
-    margin-left:675px;
+    float:right;
     border-spacing:10px;
-    margin-top:5px;
     table-layout: fixed;
+    margin-top:5px;
 }
 td#about
 {
@@ -91,4 +97,18 @@ footer
     font-size: 20px;
     text-decoration:none;
     color: #dde;
+}
+.bdytext
+{
+    font-size: 20px;
+    color: #101;
+    font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.hding
+{
+    font-size: 40px;
+    color: #101;
+    font-weight:bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }

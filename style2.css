@@ -28,7 +28,13 @@ a
 {
     margin-top:10px;
     width:10px;
-    height:5px;
+    height:10px;
+}
+a:hover
+{
+    background-color:#324;
+    transition: .5s;
+    border-radius:5px;
 }
 summary
 {
@@ -65,4 +71,9 @@ footer
     font-size: 20px;
     text-decoration:none;
     color: #dde;
+}
+.bdytext
+{
+    font-size: 20px;
+    color: #101;
 }
