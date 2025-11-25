@@ -63,13 +63,22 @@ article
     overflow:auto;
     padding:5px;
 }
+/* div for text on the home page */
+#homediv
+{
+    padding:5px;
+    float:left;
+    width:1000px;
+    height:100px;
+}
 /* div for the text on the about page*/
 #aboutdiv
 {
     float:left;
     padding:5px;
     width:600px;
-    height:480px;
+    height:210px;
+    margin-bottom:5px;
 }
 table
 {
@@ -105,6 +114,11 @@ td#about
     height:255px;
     width:267.5px;
 }
+/*tk stands for Tiny Kait*/
+img #tk
+{
+    margin-right:5px;
+}
 footer
 {
     width:1140px;
@@ -121,10 +135,14 @@ footer
 .hdingtxt
 {
     color:#101;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size:14pt;
 }
 .bdytxt
 {
     color:#101;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight:500;
+    font-size:12pt;
 }
