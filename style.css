@@ -24,7 +24,7 @@ header
 #nav li
 {
     margin-left:-40px;
-    list-style-type:circle;
+    /* negative fixes the nav list going off to the right */
     padding-bottom:20px;
 }
 nav

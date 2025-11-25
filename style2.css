@@ -46,6 +46,7 @@ a:hover
 #nav li
 {
     margin-left:-40px;
+    /* negative fixes the nav list going off to the right */
     list-style-type:circle;
     padding-bottom:20px;
 }
@@ -60,14 +61,18 @@ article
     background-color:#547;
     overflow:auto;
 }
+/* THIS IS THE SPOT WHERE THE STUFF DOESN'T WORK */
+/* haha I am so upset */
 table
 {
     width:1140px;
     height:750px;
-    margin-top:50px;
+    margin-top:20px;
     background-color:#547;
     border-spacing:20px;
-    table-layout: fixed;
+    /*empty-cells: hide;*/
+    /* I want this in LATER because I need to see the cells to 
+    build the site */
 }
 td
 {
