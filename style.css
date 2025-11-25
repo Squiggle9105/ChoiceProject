@@ -63,6 +63,14 @@ article
     overflow:auto;
     padding:5px;
 }
+/* div for the text on the about page*/
+#aboutdiv
+{
+    float:left;
+    padding:5px;
+    width:600px;
+    height:480px;
+}
 table
 {
     width:1120px;
@@ -80,12 +88,13 @@ td
 table#about
 {
     width:450px;
-    height:430px;
+    height:410px;
     background-color:#cbe;
     border-spacing:10px;
     table-layout: fixed;
     float:right;
-    margin-top:0px;
+    margin-top:-1px;
+    /*negative top margin prevents scroll bar from appearing*/
 }
 td#about
 {
