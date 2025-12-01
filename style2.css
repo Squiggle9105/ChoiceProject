@@ -68,6 +68,7 @@ table
     margin-top:20px;
     background-color:#547;
     border-spacing:20px;
+    table-layout: fixed;
     /*empty-cells: hide;*/
     /* I want this in LATER because I need to see the cells to 
     build the site */
