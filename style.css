@@ -45,6 +45,19 @@ a
     margin-top:10px;
     border-radius:5px;
 }
+a #table
+{
+    margin:0px;
+    border:0px;
+}
+/* for the table on the home page */
+a#table:hover
+{
+    /* so the images don't behave like the nav elements*/
+    background-color:transparent;
+    transition:0s;
+    border-radius:0px;
+}
 a:hover
 {
     background-color:#325;
