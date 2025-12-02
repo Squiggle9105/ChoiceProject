@@ -78,18 +78,17 @@ table
     build the site */
 }
 
+/* cell image size 248 x 218 - Make images 238 x 208 to account for 5px border*/
+
 #tableimg
 {
-    border:5px solid #dde;
+    border:5px solid #cbe;
 }
 td
 {
     background-color:#213;
-    height:230px;
-
+    height:218px;
 }
-
-/* cell image size height: 230px; width: 248px; */
 footer
 {
     width:1140px;
