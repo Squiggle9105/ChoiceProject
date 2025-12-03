@@ -139,6 +139,19 @@ footer
     background-color:#213;
     overflow:auto;
 }
+textarea
+{
+    background-color:#dde;
+}
+input
+{
+    background-color:#dde;
+}
+button
+{
+    background-color:#dde;
+    margin-top:5px;
+}
 .atext
 {
     font-size: 20px;
