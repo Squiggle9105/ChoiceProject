@@ -64,6 +64,7 @@ article
     width:1140px;
     background-color:#547;
     overflow:auto;
+    background-image: url(assets/background1.png);
 }
 table
 {
