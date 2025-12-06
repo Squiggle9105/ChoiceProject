@@ -81,6 +81,7 @@ article
     background-color:#547;
     overflow:auto;
     padding:5px;
+    background-image: url(assets/background2.png);
 }
 /* div for text on the home page */
 #homediv
@@ -140,10 +141,12 @@ img #tk
 }
 footer
 {
-    width:1140px;
-    height:100px;
+    width:1135px;
+    height:95px;
     background-color:#213;
     overflow:auto;
+    padding-left: 5px;
+    padding-top: 5px;
 }
 textarea
 {
@@ -158,10 +161,16 @@ button
     background-color:#dde;
     margin-top:5px;
 }
+button
+{
+    background-color:#dde;
+    margin-top:5px;
+}
 .atext
 {
-    font-size: 20px;
+    font-size: 16px;
     text-decoration:none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: #dde;
 }
 .hdingtxt
@@ -177,4 +186,10 @@ button
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight:500;
     font-size:12pt;
+}
+.footertxt
+{
+    font-size: 10px;
+    color: #dde;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }

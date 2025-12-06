@@ -3,57 +3,74 @@
     <head>
         <title>Squiggle01</title>
         <link rel="icon" href="favicon.svg">
+        <meta name="author" content="Kaitlyn Hoyt">
+        <meta name="description" content="Contacting Kaitlyn">
     </head>
         <body>
              <!-- This whole part is just the nav -->
             <nav>
                 <ul id="nav">
                     <li>
-                        <a class="atext" href="index.html"><img id="navimg" src="navIcons/home.png"> Home</a>
+                        <a class="atext" href="index.html"><img id="navimg" src="assets/navIcons/home.png"> Home</a>
                     </li>
                     <li>
-                        <a class="atext" href="about.html"><img id="navimg" src="navIcons/aboutme.png"> About</a>
+                        <a class="atext" href="about.html"><img id="navimg" src="assets/navIcons/aboutme.png"> About</a>
                     </li>
                     <li>
                         <a class="atext">    
                         <details>
-                            <summary> <a class="atext"><img id="navimg" src="navIcons/gallery.png"> Gallery</a></summary>
+                            <summary> <a class="atext"><img id="navimg" src="assets/navIcons/gallery.png"> Gallery</a></summary>
                             <p><a class="atext" href="traditional.html"> Traditional </a></p>
                             <p><a class ="atext" href="digital.html"> Digital </a></p>
                         </details>
                         </a>
                     </li>
-                    <li><a class="atext" href="contact.html"><img id="navimg" src="navIcons/contact.png"> Contact</a>
+                    <li><a class="atext" href="contact.html"><img id="navimg" src="assets/navIcons/contact.png"> Contact</a>
                     </li>
                 </ul>
             </nav>
-            <header><img id="hdrimg" src="heading text art/sqcontact.png">
+            <header><img id="hdrimg" src="assets/heading text art/sqcontact.png">
             </header>
-                <article>
-                    <!-- contact form is here -->
-                     <form class="bdytxt" action="https://formspree.io/f/mkgdbdpk" method="POST">
-                        <label>
-                            Email &lpar;optional&rpar;
-                            <br>
-                            <input type="email" name="email">
-                        </label>
+            <article>
+                <!-- contact form is here -->
+                <form class="bdytxt" action="https://formspree.io/f/mkgdbdpk" method="POST">
+                    <label>
+                        Email &lpar;optional&rpar;
                         <br>
-                        <label>
-                            Message &lpar;email not required to send message&rpar;
-                            <br>
-                            <textarea name="message"></textarea>
-                        </label>
+                        <input type="email" name="email">
+                    </label>
+                    <br>
+                    <label>
+                        Message &lpar;email not required to send message&rpar;
                         <br>
-                        <button class="bdytxt" type="submit">Send!</button>
-                        </form>
-                        <div id="contactdiv">
-                            <a id="ascratch" class="bdytxt" target="_blank" href="https://scratch.mit.edu/users/Squiggle01/"> My Scratch &colon;D
-                                <br>
-                            <a id="ascratch" class="bdytxt" target="_blank" href="https://youtu.be/L0KkKSSb9NI?si=MK_vReXH7f9uJaqn"> Other thing
-                        </div>
-                </article>
+                        <textarea name="message"></textarea>
+                    </label>
+                    <br>
+                    <button class="bdytxt" type="submit">Send!</button>
+                </form>
+                <div id="contactdiv">
+                    <a id="ascratch" class="bdytxt" target="_blank" href="https://scratch.mit.edu/users/Squiggle01/"> My Scratch &colon;D </a>
+                        <br>
+                    <a id="ascratch" class="bdytxt" target="_blank" href="https://youtu.be/L0KkKSSb9NI?si=MK_vReXH7f9uJaqn"> Other thing </a>
+                </div>
+                <br>
+                <div id="gifdiv">
+                    <img src="assets/wave.gif">
+                </div>
+                <!--button Javascript-->
+                <script>
+                    function myFunction() 
+                    {
+                    alert("Thank you :D");
+                    }
+                </script>
+                <button class="bdytxt" onclick="myFunction()">Cool Website!</button>
+            </article>
         <footer>
-            
+            <p class="footertxt">
+                &copy; 2025 - all art by Kaitlyn Hoyt 
+            </p>
+        <script type="text/javascript" src="https://counter.websiteout.com/js/7/5/0/1"></script>
         </footer>
         </body>
 </html>

@@ -71,7 +71,7 @@ table
     width:1100px;
     height:740px;
     margin-top:20px;
-    background-color:#547;
+    background-color:transparent;
     border-spacing:20px;
     table-layout: fixed;
     /*empty-cells: hide;*/
@@ -107,4 +107,10 @@ footer
 {
     font-size: 20px;
     color: #101;
+}
+.footertxt
+{
+    font-size: 10px;
+    color: #dde;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
